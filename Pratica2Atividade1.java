@@ -20,8 +20,12 @@ public class Pratica2Atividade1 {
 
         if (a > b) {
             System.out.println(a);
-        } else {
+        } 
+        else if (b > a) {
             System.out.println(b);
+        }
+        else {
+            System.out.println("São iguais");
         }
     }
 
